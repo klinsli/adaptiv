@@ -15,6 +15,53 @@
   align-items: center;
   gap: 20px;
 }
+.about__section{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 300px;
+    margin-top: 320px;
+    margin-left: 79px;
+    margin-right: 85px;
+}
+.text-left{
+
+    color: var(--foreground-color, #171717);
+    font-family: Helvetica Neue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+    
+
+.text-one{
+    text-decoration: none;
+    color: var(--foreground-color, #171717);
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: Helvetica Neue;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.PROJECTS__section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 330px;
+    margin-left: 80px;
+    
+}
+.image-three{
+    
+}
+.img{
+    margin-left: 38px;
+}
 a {
   color: black;
   text-decoration: none;
